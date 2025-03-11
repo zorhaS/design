@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <style>
+.image-container {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    transform-origin: center center; /* Centrer la transformation */
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://image.noelshack.com/fichiers/2025/11/2/1741725193-coding-3.png" alt="Image interactive">
+    </div>
+</body>
+</html>
